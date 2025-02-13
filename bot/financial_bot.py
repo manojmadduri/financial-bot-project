@@ -15,14 +15,23 @@ import warnings
 
 
 # Load environment variables
-load_dotenv()
+# load_dotenv()
 
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
-ALPHA_VANTAGE_API_KEY = os.getenv("ALPHA_VANTAGE_API_KEY")
-UPDATE_CHANNEL_ID = os.getenv("UPDATE_CHANNEL_ID")
-AUTHORIZED_USER_IDS = os.getenv("AUTHORIZED_USER_IDS", "").split(",")
-AUTHORIZED_ROLES = os.getenv("AUTHORIZED_ROLES", "").split(",")
-BOT_OWNER_ID = os.getenv("BOT_OWNER_ID")
+# DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+# ALPHA_VANTAGE_API_KEY = os.getenv("ALPHA_VANTAGE_API_KEY")
+# UPDATE_CHANNEL_ID = os.getenv("UPDATE_CHANNEL_ID")
+# AUTHORIZED_USER_IDS = os.getenv("AUTHORIZED_USER_IDS", "").split(",")
+# AUTHORIZED_ROLES = os.getenv("AUTHORIZED_ROLES", "").split(",")
+# BOT_OWNER_ID = os.getenv("BOT_OWNER_ID")
+
+
+DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN")
+ALPHA_VANTAGE_API_KEY = os.environ.get("ALPHA_VANTAGE_API_KEY")
+UPDATE_CHANNEL_ID = os.environ.get("UPDATE_CHANNEL_ID")
+AUTHORIZED_USER_IDS = os.environ.get("AUTHORIZED_USER_IDS", "").split(",")
+AUTHORIZED_ROLES = os.environ.get("AUTHORIZED_ROLES", "").split(",")
+BOT_OWNER_ID = os.environ.get("BOT_OWNER_ID")
+
 
 AUTHORIZED_USER_IDS = [int(user_id) for user_id in AUTHORIZED_USER_IDS if user_id]
 

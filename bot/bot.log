@@ -1015,3 +1015,6 @@
 2025-02-12 20:21:21,925 - __main__ - ERROR - Invalid cryptocurrency symbol: KAS
 2025-02-12 20:21:38,099 - __main__ - ERROR - Invalid cryptocurrency symbol: ARB
 2025-02-12 20:22:03,509 - __main__ - INFO - Crypto price retrieved for MSOL
+2025-02-12 20:46:13,483 - __main__ - ERROR - No stock data available for BITCOIN
+2025-02-12 20:56:42,868 - __main__ - INFO - Crypto price retrieved for BITCOIN
+2025-02-12 21:16:13,591 - __main__ - ERROR - No stock data available for BITCOIN
