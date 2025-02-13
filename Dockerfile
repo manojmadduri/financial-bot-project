@@ -4,14 +4,14 @@ FROM python:3.11-slim
 # Set the working directory inside the container
 WORKDIR /app
 
-# Copy the requirements file first (for caching efficiency)
+# Copy the requirements file first
 COPY requirements.txt .
 
 # Install dependencies
 RUN pip install --upgrade pip && pip install -r requirements.txt
 
-# Copy the rest of the project
+# Copy the entire project (including bot folder)
 COPY . .
 
 # Set the entry point to run the bot
-CMD ["python", "financial_bot.py"]
+CMD ["python", "bot/financial_bot.py"]
