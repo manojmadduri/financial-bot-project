@@ -115,21 +115,21 @@ def get_user_watchlist_file(ctx):
 def is_bot_owner(ctx):
     return str(ctx.author.id) == BOT_OWNER_ID
 
-# @tasks.loop(minutes=30)
-# async def market_update():
-#     if not UPDATE_CHANNEL_ID:
-#         return
-#     channel = bot.get_channel(int(UPDATE_CHANNEL_ID))
-#     if not channel:
-#         logger.error("⚠️{ctx.author.mention} Market update channel not found.")
-#         return
+@tasks.loop(minutes=30)
+async def market_update():
+    if not UPDATE_CHANNEL_ID:
+        return
+    channel = bot.get_channel(int(UPDATE_CHANNEL_ID))
+    if not channel:
+        logger.error("⚠️{ctx.author.mention} Market update channel not found.")
+        return
     
-#     stock_symbol = "AAPL"
-#     stock_price = get_stock_price(stock_symbol)
-#     bitcoin_price = get_crypto_price("bitcoin")
+    stock_symbol = "AAPL"
+    stock_price = get_stock_price(stock_symbol)
+    bitcoin_price = get_crypto_price("bitcoin")
     
-#     message = f"📊  **Market Update**\n📈 **AAPL**: ${stock_price}\n💰 **Bitcoin**: ${bitcoin_price} USD"
-#     await channel.send(message)
+    message = f"📊  **Market Update**\n📈 **AAPL**: ${stock_price}\n💰 **Bitcoin**: ${bitcoin_price} USD"
+    await channel.send(message)
 
 @bot.event
 async def on_ready():
