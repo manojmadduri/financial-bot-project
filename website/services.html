@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services - Financial Bot Services</title>
+  <meta name="description" content="Explore the comprehensive services provided by our Discord bots—from live market updates to advanced analysis tools." />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">Financial Bot Services</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="analysis.html">Advanced Analysis</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section class="section services">
+    <div class="container">
+      <h2>Our Discord Bot Services</h2>
+      <div class="service-cards">
+        <!-- Stock Bot Card -->
+        <div class="service-card">
+          <h3>Stock Bot</h3>
+          <p>Access real-time stock market data with simple commands like <code>!stock SYMBOL</code>. Our bot provides current prices, changes, and percentage updates to help you monitor the market.</p>
+        </div>
+        <!-- Crypto Bot Card -->
+        <div class="service-card">
+          <h3>Crypto Bot</h3>
+          <p>Stay updated with cryptocurrency pricing and market trends using <code>!crypto coin_name</code>. Get the latest data on your favorite digital assets.</p>
+        </div>
+        <!-- Market Alerts Card -->
+        <div class="service-card">
+          <h3>Market Alerts</h3>
+          <p>Receive periodic market updates and custom alerts directly in your Discord channels. Configure your alerts to keep you informed about key market changes.</p>
+        </div>
+        <!-- Advanced Analysis Card -->
+        <div class="service-card">
+          <h3>Advanced Analysis</h3>
+          <p>
+            Our advanced analysis feature goes beyond basic data. Using the command <code>!analyze SYMBOL</code>, the bot:
+          </p>
+          <ul>
+            <li>Retrieves historical daily stock data from Alpha Vantage.</li>
+            <li>Calculates key technical indicators such as the 20-day and 50-day Simple Moving Averages (SMA).</li>
+            <li>Generates an insightful chart showing closing prices and moving averages.</li>
+          </ul>
+          <p>
+            <strong>Example:</strong> Try typing <code>!analyze AAPL</code> in your Discord channel to see a detailed chart for Apple Inc. For more details on this feature, visit our <a href="analysis.html">Advanced Analysis</a> page.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Financial Bot Services. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

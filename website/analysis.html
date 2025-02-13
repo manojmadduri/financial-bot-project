@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Advanced Analysis - Financial Bot Services</title>
+  <meta name="description" content="Detailed explanation and usage instructions for the advanced analysis feature of our Discord bot, including technical insights and examples." />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">Financial Bot Services</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="analysis.html" class="active">Advanced Analysis</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Advanced Analysis Details -->
+  <section class="section analysis">
+    <div class="container">
+      <h2>Advanced Analysis Feature</h2>
+      <p>
+        Our advanced analysis command <code>!analyze SYMBOL</code> empowers you with technical insights by:
+      </p>
+      <ul>
+        <li>Retrieving historical daily stock data via the Alpha Vantage API.</li>
+        <li>Calculating key technical indicators such as the 20-day and 50-day Simple Moving Averages (SMA).</li>
+        <li>Generating an informative chart that overlays closing prices with the moving averages.</li>
+      </ul>
+      <h3>How It Works</h3>
+      <p>
+        When you enter the command (for example, <code>!analyze TSLA</code>) in your Discord channel, our bot:
+      </p>
+      <ol>
+        <li>Fetches the latest historical data for the specified stock symbol.</li>
+        <li>Processes the data using <strong>pandas</strong> to sort dates and compute the SMAs.</li>
+        <li>Uses <strong>matplotlib</strong> to create a chart that displays:
+          <ul>
+            <li>The daily closing price</li>
+            <li>The 20-day moving average</li>
+            <li>The 50-day moving average</li>
+          </ul>
+        </li>
+        <li>Sends the chart image directly to the Discord channel so you can quickly assess market trends.</li>
+      </ol>
+      <h3>Usage Examples</h3>
+      <p>
+        <strong>Example 1:</strong> Type <code>!analyze AAPL</code> to see a detailed chart for Apple Inc.
+      </p>
+      <p>
+        <strong>Example 2:</strong> Type <code>!analyze TSLA</code> to view Tesla’s recent price trends and moving averages.
+      </p>
+      <p>
+        This powerful analysis tool helps traders and investors to identify trends and potential market signals with ease.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Financial Bot Services. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

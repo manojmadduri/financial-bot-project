@@ -1,0 +1,36 @@
+2025-02-08 19:17:33,610 - bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:18:35,628 - bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:19:27,072 - bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:19:50,783 - bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:20:57,746 - bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:21:05,996 - bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:22:49,242 - bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:23:08,435 - bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:23:16,389 - bot - INFO - Stock price retrieved for AAPL
+2025-02-08 19:23:16,397 - bot - INFO - Crypto price retrieved for bitcoin
+2025-02-08 19:23:37,878 - bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:25:20,512 - bot - INFO - Stock price retrieved for AAPL
+2025-02-08 19:25:20,516 - bot - INFO - Crypto price retrieved for bitcoin
+2025-02-08 19:25:37,070 - bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:25:52,184 - bot - INFO - Stock price retrieved for AAPL
+2025-02-08 19:25:52,192 - bot - INFO - Crypto price retrieved for bitcoin
+2025-02-08 19:26:13,939 - bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:26:27,224 - bot - INFO - Stock price retrieved for AAPL
+2025-02-08 19:26:27,231 - bot - INFO - Crypto price retrieved for bitcoin
+2025-02-08 19:27:41,889 - bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:28:12,438 - bot - INFO - Stock price retrieved for AAPL
+2025-02-08 19:28:12,441 - bot - INFO - Crypto price retrieved for bitcoin
+2025-02-08 19:34:40,859 - bot.bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:35:35,132 - bot.bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:38:56,089 - bot.bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:44:37,198 - bot.bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:44:50,618 - bot.bot - INFO - Stock price retrieved for AAPL
+2025-02-08 19:44:50,624 - bot.bot - INFO - Crypto price retrieved for bitcoin
+2025-02-08 19:44:50,637 - bot.bot - INFO - Alert set for AAPL at $150.0
+2025-02-08 19:44:50,844 - bot.bot - INFO - Added AAPL to watchlist for <AsyncMock name='mock.author.name' id='1852761626368'>
+2025-02-08 19:44:50,899 - bot.bot - INFO - Portfolio value calculated for <AsyncMock name='mock.author.name' id='1852762013872'>
+2025-02-08 19:44:50,904 - bot.bot - INFO - ♻️ Restarting bot...
+2025-02-08 19:52:08,686 - bot.bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 19:55:45,651 - bot.bot - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 20:35:25,712 - __main__ - INFO - ✅ Bot connected as FinancialBot#7710
+2025-02-08 21:21:30,347 - __main__ - INFO - Stock price retrieved for AAPL

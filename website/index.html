@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QWERTY - Financial Bot Services</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sticky Header -->
+  <header>
+    <div class="nav-container">
+      <div class="logo">QWERTY</div>
+      <nav>
+        <ul id="nav-links" class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- Hamburger Menu for Mobile -->
+        <div class="hamburger" id="hamburger">
+          <span class="bar top-bar"></span>
+          <span class="bar middle-bar"></span>
+          <span class="bar bottom-bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Innovative Market Insights</h1>
+      <p>Stay ahead with real-time stock &amp; crypto updates, plus advanced analysis.</p>
+      <a href="#services" class="hero-btn">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="about-text">
+      <h2>Cutting-Edge Discord Bots for Insights</h2>
+      <p>
+        At QWERTY, we revolutionize how traders access real-time market data. Our
+        Discord bots deliver stock and cryptocurrency updates, ensuring you never miss a move.
+      </p>
+      <p>
+        Using <strong>Alpha Vantage</strong> for stocks and <strong>CoinGecko</strong> for crypto,
+        our solutions provide seamless integration with your Discord community. Whether you're 
+        a seasoned investor or exploring new markets, our bots adapt to your needs.
+      </p>
+      <a href="#contact" class="contact-link">Get in Touch</a>
+    </div>
+    <div class="about-image">
+      <!-- Replace with your own image -->
+      <img
+        src="https://via.placeholder.com/500x400?text=Financial+Data+Image"
+        alt="Financial Data"
+      />
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section services-section">
+    <div class="services-container">
+      <h2>Our Services</h2>
+      <p class="section-subtitle">Stay ahead in stocks and crypto!</p>
+      <div class="service-cards">
+        <!-- Service Card 1 -->
+        <div class="service-card">
+          <img src="https://via.placeholder.com/80?text=S" alt="Stock Icon" />
+          <h3>Real-Time Stock Updates</h3>
+          <p>
+            Use <code>!stock SYMBOL</code> to fetch instant stock data from 
+            <strong>Alpha Vantage</strong>.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <!-- Service Card 2 -->
+        <div class="service-card">
+          <img src="https://via.placeholder.com/80?text=C" alt="Crypto Icon" />
+          <h3>Cryptocurrency Insights</h3>
+          <p>
+            Use <code>!crypto coin_name</code> for live crypto prices 
+            via <strong>CoinGecko</strong>.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <!-- Service Card 3 -->
+        <div class="service-card">
+          <img src="https://via.placeholder.com/80?text=A" alt="Analysis Icon" />
+          <h3>Advanced Analysis</h3>
+          <p>
+            Use <code>!analyze SYMBOL</code> to generate charts &amp; moving averages 
+            for technical insights.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how-it-works" class="section how-it-works-section">
+    <h2>How It Works</h2>
+    <div class="steps-container">
+      <div class="step">
+        <h3>Step 1</h3>
+        <p>Invite the bot to your Discord server and configure your API keys via .env.</p>
+      </div>
+      <div class="step">
+        <h3>Step 2</h3>
+        <p>Use commands like <code>!stock</code> or <code>!crypto</code> for real-time data.</p>
+      </div>
+      <div class="step">
+        <h3>Step 3</h3>
+        <p>Receive automatic market updates every 30 mins or as you configure them.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:manojkakashi8@gmail.com">manojkakashi8@gmail.com</a><br/>
+          <strong>Location:</strong> Dacula, GA US
+        </p>
+        <p><strong>Hours</strong></p>
+        <ul class="hours">
+          <li>Mon - Fri: 9:00am - 10:00pm</li>
+          <li>Sat: 9:00am - 6:00pm</li>
+          <li>Sun: 9:00am - 12:00pm</li>
+        </ul>
+      </div>
+      <div class="contact-form">
+        <form action="#" method="POST">
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+
+          <label for="email">Email address *</label>
+          <input type="email" id="email" name="email" placeholder="email@website.com" required />
+
+          <label for="phone">Phone number *</label>
+          <input type="text" id="phone" name="phone" placeholder="555-555-5555" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Your message here..."></textarea>
+
+          <p class="consent">
+            <input type="checkbox" id="consent" name="consent" required />
+            <label for="consent">I allow this website to store my submission so they can respond to my inquiry.</label>
+          </p>
+
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Schedule Appointment | Complete Intake | Privacy Policy</p>
+    <p>Web design by <strong>B12</strong></p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
