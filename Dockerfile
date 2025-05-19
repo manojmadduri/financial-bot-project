@@ -4,8 +4,10 @@ FROM python:3.11-slim
 # Set the working directory inside the container
 WORKDIR /app
 
-# Install dependencies
-RUN pip install -r requirements.txt
+# Copy the requirements file first
+
+
+COPY requirements.txt .
 
 # Install yfinance separately in case of issues
 RUN pip install yfinance
