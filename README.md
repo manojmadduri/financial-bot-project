@@ -319,7 +319,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or support:
 - **Email:** [manojmadduri@yahoo.in](mailto:manojmadduri@yahoo.in)
-- **Discord:** [Join Our Server](https://discord.gg/yourdiscordinvite)
+- **Discord:** [Join Our Server](https://discord.gg/FM34e3eF)
 
 ---
 
