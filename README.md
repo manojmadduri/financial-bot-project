@@ -173,7 +173,6 @@ Your website is composed of multiple pages:
 - **analysis.html:** Detailed explanation of the advanced analysis feature.
 - **contact.html:** Contact and support information.
 
-*(See the individual HTML files for complete code.)*
 
 ### CSS Styling
 
@@ -182,7 +181,7 @@ The `styles.css` file provides a modern, responsive design that styles the heade
 - A hero section with a translucent overlay.
 - Responsive card layouts for service descriptions.
 
-*(See the provided CSS code for full details.)*
+
 
 ### JavaScript for Navigation
 
@@ -319,7 +318,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 11. Contact
 
 For questions or support:
-- **Email:** [support@example.com](mailto:support@example.com)
+- **Email:** [manojmadduri@yahoo.in](mailto:manojmadduri@yahoo.in)
 - **Discord:** [Join Our Server](https://discord.gg/yourdiscordinvite)
 
 ---
